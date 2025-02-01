@@ -1,5 +1,5 @@
 FROM ubuntu
-LABEL name="Ajay
+LABEL name='Ajay'
 LABEL email='ajaydalvi61@gmail.com'
 RUN apt-get update -y && apt-get -y install httpd unzip tree
 WORKDIR /var/www/html
